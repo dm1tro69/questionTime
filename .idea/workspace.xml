@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a079dbb-bc7d-4924-ae16-c2f55855b91c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/api/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionTime/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionTime/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionTime/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionTime/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/django_registration/registration_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/django_registration/registration_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response11.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1aaC8V2cAOjwNPABjfwQtezzXpf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,6 +45,72 @@
       <recent name="$PROJECT_DIR$/templates/registration" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/api/question" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Token e20b36d83437fb656fabdf3f7f2e32ed97d7fbd5" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/api/questions" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Token e20b36d83437fb656fabdf3f7f2e32ed97d7fbd5" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/api/questions" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,7 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586964158309</updated>
       <workItem from="1586964174093" duration="11258000" />
-      <workItem from="1587050570366" duration="5354000" />
+      <workItem from="1587050570366" duration="6224000" />
+      <workItem from="1587117731295" duration="16049000" />
     </task>
     <task id="LOCAL-00001" summary="add first api">
       <created>1586976587957</created>
@@ -98,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586976587957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add app questions">
+      <created>1587061187626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587061187626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add first api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first api" />
+    <MESSAGE value="add app questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app questions" />
   </component>
 </project>
