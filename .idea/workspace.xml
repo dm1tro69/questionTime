@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a079dbb-bc7d-4924-ae16-c2f55855b91c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionTime/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionTime/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionTime/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionTime/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/django_registration/registration_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/django_registration/registration_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response11.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1aaC8V2cAOjwNPABjfwQtezzXpf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -161,7 +160,8 @@
       <updated>1586964158309</updated>
       <workItem from="1586964174093" duration="11258000" />
       <workItem from="1587050570366" duration="6224000" />
-      <workItem from="1587117731295" duration="16049000" />
+      <workItem from="1587117731295" duration="16755000" />
+      <workItem from="1587199362367" duration="1706000" />
     </task>
     <task id="LOCAL-00001" summary="add first api">
       <created>1586976587957</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587061187626</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add views and css">
+      <created>1587153287683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587153287683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +207,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add first api" />
     <MESSAGE value="add app questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add app questions" />
+    <MESSAGE value="add views and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add views and css" />
   </component>
 </project>
